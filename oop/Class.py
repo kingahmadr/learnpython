@@ -58,7 +58,7 @@ student3 = Student("Cicak", 20, 90.1)
 student4 = Student("Bubi", 21, 90.2)
 student5 = Student("Babi", 22, 90.4)
 
-school_object = School([student1, student2, student3, student4])
+school_object = School([student1, student2, student3, student4, student5])
 
 school_object.display_student()
 
