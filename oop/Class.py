@@ -49,8 +49,7 @@ class Student:
     def display(self):
         print(f"Student details:\nName: {self.name}\nAge: {self.age}\nRaport: {self.raport}")
 
-school_object = School({"ani", 29, 28})
-print(school_object.display_student)
+# school_object = School({"ani", 29, 28})
 
 student1 = Student("Ani", 18, 85.6)
 student2 = Student("Tokek", 16, 90.1)
