@@ -1,0 +1,20 @@
+[project]
+name = "learnpython"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "kingahmadr", email = "ahmadnromiz@gmail.com"},
+]
+dependencies = [
+    "flask>=3.0.3",
+    "pymongo>=4.9.1",
+    "flask-login>=0.6.3",
+    "python-dotenv>=1.0.1",
+]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false

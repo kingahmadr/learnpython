@@ -1,2 +1,3 @@
 .vscode/*
 flask/*
+src/.env
